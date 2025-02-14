@@ -1,0 +1,21 @@
+<div class="container mt-5">
+    @if (!registerMode){
+    <div style="text-align: center;">
+        <h2>Get rich quick!!</h2>
+        <p class="lead">Start playing... all you need is to do is sign up and 10$</p>
+        <div class="text-center">
+            <button class="btn btn-primary btn-lg me-2" (click)="registerToggle()">Start now</button>
+            <button class="btn btn-secondary btn-lg me-2">Learn more</button>
+        </div>
+    </div>
+    } @else{
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <app-register [playersFromHomeComponent]="players" (cancelRegister)="cancelRegisterMode($event)">
+                </app-register>
+            </div>
+        </div>
+    </div>
+    }
+</div>

@@ -1,0 +1,19 @@
+@if(!accountService.currentPlayer()){
+<div class="container">
+  <form #loginForm="ngForm" (ngSubmit)="login()" autocomplete="off">
+    <h2 class="text-center text-primary">Sign In</h2>
+    <hr>
+    <div class="mb-3 form-floating">
+        <input type="text" class="form-control" name="playername" [(ngModel)]="model.playername" placeholder="Player Name">
+         <label>Player Name</label>
+    </div>
+    <div class="mb-3 form-floating">
+        <input type="password" class="form-control" name="password" [(ngModel)]="model.password" placeholder="Password">
+         <label>Password</label>
+    </div>
+    <div class="form-group text-center">
+        <button class="btn btn-success me-2" type="submit">Login</button>
+    </div>
+  </form>
+</div>
+}

@@ -1,0 +1,17 @@
+@API_HostAddress = http://localhost:8000
+
+GET {{API_HostAddress}}/api/players/1
+Accept: application/json
+
+### First controller
+GET {{API_HostAddress}}/api/weatherForecast
+Accept: application/json
+
+### Register
+POST  {{API_HostAddress}}/api/account/register
+Accept: application/json
+
+{
+    "playerName": "Vinil",
+    "password": "password",
+}

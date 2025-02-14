@@ -1,0 +1,45 @@
+  374  find .
+  375  find 123.txt
+  376  find 123.txt | cat
+  379  find new_copy cooking
+  380  find new_copy -name 'cooking'
+  381  find new_copy -name '*g'
+  382  find new_copy -name '*c'
+  383  find new_copy -name '*c*'
+  384  find . -name '*.js'
+  385  find . .type d
+  386  find . -type -d
+  387  find . -type -f
+  388  find . -type f
+  389  find . -type d
+  390  find . -type '*d*'
+  391  find . -type d -iname '*d*'
+  392  find . -name '*e*'
+  393  find . -name '*e*'-or -name '*i*'
+  395  find . -type f -size 100k - size -1M
+  396  find . -type f -size +100k - size -1M
+  397  find .
+  398  find . -type f
+  399  find . -type f -size 100k
+  400  find . -type f -size +100k
+  401  find . -type f -size +1k
+  402  find . -type f -size +1k -size -1M
+  403  find . -type f -size +1C -size -1M
+  404  find . -type f -size +1c -size -1M
+  405  find . -type f -mtime 0 
+  406  find . -type f -size +1k -size -1M
+  407  find . -type f -size +1k
+  408  find . -type f -size +1k -exec cat {} \;
+  409  find . -type f -size +1k -exec ls -l {} \;
+  487  find / .ctime -1 > allchanges.txt
+  488  find / .ctime -l > allchanges.txt
+  489  find / -ctime -l > allchanges.txt
+  490  find / -ctime -1 > allchanges.txt
+  514  find / -ctime -1m > allchanges.txt
+  515  find / -ctime -1s > allchanges.txt
+  517  find / -ctime -1 > allchanges.txt
+  646  find . -size +1KB
+  647  find . -size +1K
+  648  find . -size +1M
+  649  find . -size +1c
+  650  find . -size +1c | xargs ls -lh

@@ -1,0 +1,32 @@
+  412  grep transform 123.txt
+  413  grep transform 123.txt -n
+  414  grep -r "transform"
+  415  grep -r "transform" -n
+  442  history | grep file.txt
+  460  ps axww | grep "Visual"
+  461  ps axww | grep "Visual Studio"
+  463  top | grep "Visual"
+  494  grep "docker" allchanges.txt
+  495  grep "docker" allchanges.txt | ls -l
+  496  grep "docker" allchanges.txt
+  497  ls -l | grep "docker! allchanges.txt
+  498  ls -l | grep "docker" allchanges.txt
+  499  sort  | grep "docker" allchanges.txt
+  500  grep "docker" allchanges.txt
+  501  grep "d" allchanges.txt
+  502  grep "txt" allchanges.txt
+  503  grep "json" allchanges.txt
+  504  grep "js" allchanges.txt
+  505  grep "*js" allchanges.txt
+  506  grep "*js*" allchanges.txt
+  507  grep "js*" allchanges.txt
+  508  grep "*.js*" allchanges.txt
+  509  grep "*.s*" allchanges.txt
+  510  grep "*s*" allchanges.txt
+  511  grep "Privacy" allchanges.txt
+  512  grep "Privacy" allchanges.txt | sort 
+  513  grep "Privacy" allchanges.txt | sort -r
+  576  history grep
+  578  history | less | grep "rm"
+  684  grep "ls" commands.txt
+  685  grep "ls" commands.txt | less
