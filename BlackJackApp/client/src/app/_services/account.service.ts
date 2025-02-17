@@ -21,6 +21,17 @@ export class AccountService {
       })
     )
   }
+
+  register(model: any){
+    return this.http.post<Player>(this.baseUrl + 'account/register', model).pipe( // signal set up
+      map(player => {
+        if (player){
+          localStorage.setItem('player', JSON.stringify(player));
+          this.currentPlayer.set(player);
+        }
+      })
+    )
+  }
   
   logout(){
     localStorage.removeItem('player');

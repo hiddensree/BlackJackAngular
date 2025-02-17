@@ -18,21 +18,22 @@ public class AccountController(DataContext context, ITokenService tokenService) 
             return BadRequest("Playername is taken");
         using var hmac = new HMACSHA512(); // Garbage collection
 
-        var player = new BlackJackPlayer
-        {
-            PlayerName = registerPlayerDto.Playername,
-            PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerPlayerDto.Password)),
-            PasswordSalt = hmac.Key,
-        };
+        // var player = new BlackJackPlayer
+        // {
+        //     PlayerName = registerPlayerDto.Playername,
+        //     PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerPlayerDto.Password)),
+        //     PasswordSalt = hmac.Key,
+        // };
 
-        await context.BlackJackPlayers.AddAsync(player);
-        await context.SaveChangesAsync();
+        // await context.BlackJackPlayers.AddAsync(player);
+        // await context.SaveChangesAsync();
 
-        return new PlayerDto
-        {
-            Playername = player.PlayerName,
-            Token = tokenService.CreateToken(player),
-        };
+        // return new PlayerDto
+        // {
+        //     Playername = player.PlayerName,
+        //     Token = tokenService.CreateToken(player),
+        // };
+        return Ok();
     }
 
     [HttpPost("login")]

@@ -13,7 +13,6 @@ import { HttpClient } from '@angular/common/http';
 export class HomeComponent implements OnInit {
   http = inject(HttpClient) // Injection // before we used constructors - class approach and no constructor - main advantage of using ts.
   registerMode = false;
-  registerModeStatusToApp = output<boolean>()
   players: any;
 
   ngOnInit(): void {
@@ -26,7 +25,6 @@ export class HomeComponent implements OnInit {
 
   cancelRegisterMode(event: boolean){
     this.registerMode = event // sets the boolean value from register component.
-    this.registerModeStatusToApp.emit(event);
   }
 
   getPlayers() {

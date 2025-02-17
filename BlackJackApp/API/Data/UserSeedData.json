@@ -1,0 +1,152 @@
+[
+  {
+    "PlayerName": "Elnora",
+    "Balance": 999,
+    "DateOfBirth": "1998-08-01",
+    "GameTag": "Elnora65",
+    "Created": "2020-06-18",
+    "City": "Rockhill",
+    "Country": "Cote D'Ivoire (Ivory Coast)",
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/4.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "PlayerName": "Jewell",
+    "Balance": 497,
+    "DateOfBirth": "1990-09-18",
+    "GameTag": "Jewell5",
+    "Created": "2019-04-04",
+    "City": "Chesterfield",
+    "Country": "Anguilla",
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/30.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "PlayerName": "Sadie",
+    "Balance": 75,
+    "DateOfBirth": "1995-04-19",
+    "GameTag": "Sadie73",
+    "Created": "2019-07-30",
+    "City": "Brazos",
+    "Country": "Tonga",
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/62.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "PlayerName": "Clarice",
+    "Balance": 615,
+    "DateOfBirth": "1994-07-18",
+    "GameTag": "Clarice83",
+    "Created": "2019-03-23",
+    "City": "Freeburn",
+    "Country": "Ghana",
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/57.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "PlayerName": "Dollie",
+    "Balance": 686,
+    "DateOfBirth": "1988-09-19",
+    "GameTag": "Dollie22",
+    "Created": "2020-06-04",
+    "City": "Diaperville",
+    "Country": "Myanmar",
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/94.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "PlayerName": "Kelli",
+    "Balance": 774,
+    "DateOfBirth": "1989-09-16",
+    "GameTag": "Kelli83",
+    "Created": "2020-03-23",
+    "City": "Rodanthe",
+    "Country": "Uganda",
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/39.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "PlayerName": "Rita",
+    "Balance": 13,
+    "DateOfBirth": "1994-06-08",
+    "GameTag": "Rita63",
+    "Created": "2019-01-25",
+    "City": "Carlton",
+    "Country": "New Zealand",
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/51.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "PlayerName": "Tania",
+    "Balance": 900,
+    "DateOfBirth": "1986-03-13",
+    "GameTag": "Tania41",
+    "Created": "2020-02-09",
+    "City": "Coleville",
+    "Country": "Somalia",
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/63.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "PlayerName": "Belinda",
+    "Balance": 889,
+    "DateOfBirth": "1997-06-30",
+    "GameTag": "Belinda30",
+    "Created": "2019-10-23",
+    "City": "Loyalhanna",
+    "Country": "Pitcairn",
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/24.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "PlayerName": "Alicia",
+    "Balance": 29,
+    "DateOfBirth": "1999-11-13",
+    "GameTag": "Alicia33",
+    "Created": "2020-04-13",
+    "City": "Manila",
+    "Country": "Cayman Islands",
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/73.jpg",
+        "IsMain": true
+      }
+    ]
+  }
+]

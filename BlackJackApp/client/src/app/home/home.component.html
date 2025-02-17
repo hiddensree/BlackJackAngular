@@ -19,3 +19,32 @@
     </div>
     }
 </div>
+
+<table bgColor="black" width="300" border="1px">
+    <tr bgColor="grey" align="center">
+        <th width="100">
+            ID
+        </th>
+        <th width="100">
+            Balance
+        </th>
+        <th width="100">
+            Player
+        </th>
+    </tr>
+    @for (player of players; track player.id) {
+    <tr bgColor="lightgrey" align="center">
+        <td>
+            {{player.id}}
+        </td>
+        <td>
+            {{player.playerBalance}}
+        </td>
+        <td>
+            <span style="font-weight: bold;">
+                {{player.playerName}}
+            </span>
+        </td>
+    </tr>
+    }
+</table>
