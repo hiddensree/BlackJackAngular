@@ -1,6 +1,6 @@
 @API_HostAddress = http://localhost:8000
 
-GET {{API_HostAddress}}/api/players
+GET {{API_HostAddress}}/api/players/sadie
 Accept: application/json
 
 ### First controller

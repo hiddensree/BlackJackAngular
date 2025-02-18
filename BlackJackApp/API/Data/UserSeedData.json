@@ -1,7 +1,7 @@
 [
   {
     "PlayerName": "Elnora",
-    "Balance": 999,
+    "PlayerBalance": 999,
     "DateOfBirth": "1998-08-01",
     "GameTag": "Elnora65",
     "Created": "2020-06-18",
@@ -16,7 +16,7 @@
   },
   {
     "PlayerName": "Jewell",
-    "Balance": 497,
+    "PlayerBalance": 497,
     "DateOfBirth": "1990-09-18",
     "GameTag": "Jewell5",
     "Created": "2019-04-04",
@@ -31,7 +31,7 @@
   },
   {
     "PlayerName": "Sadie",
-    "Balance": 75,
+    "PlayerBalance": 75,
     "DateOfBirth": "1995-04-19",
     "GameTag": "Sadie73",
     "Created": "2019-07-30",
@@ -46,7 +46,7 @@
   },
   {
     "PlayerName": "Clarice",
-    "Balance": 615,
+    "PlayerBalance": 615,
     "DateOfBirth": "1994-07-18",
     "GameTag": "Clarice83",
     "Created": "2019-03-23",
@@ -61,7 +61,7 @@
   },
   {
     "PlayerName": "Dollie",
-    "Balance": 686,
+    "PlayerBalance": 686,
     "DateOfBirth": "1988-09-19",
     "GameTag": "Dollie22",
     "Created": "2020-06-04",
@@ -76,7 +76,7 @@
   },
   {
     "PlayerName": "Kelli",
-    "Balance": 774,
+    "PlayerBalance": 774,
     "DateOfBirth": "1989-09-16",
     "GameTag": "Kelli83",
     "Created": "2020-03-23",
@@ -91,7 +91,7 @@
   },
   {
     "PlayerName": "Rita",
-    "Balance": 13,
+    "PlayerBalance": 13,
     "DateOfBirth": "1994-06-08",
     "GameTag": "Rita63",
     "Created": "2019-01-25",
@@ -106,7 +106,7 @@
   },
   {
     "PlayerName": "Tania",
-    "Balance": 900,
+    "PlayerBalance": 620,
     "DateOfBirth": "1986-03-13",
     "GameTag": "Tania41",
     "Created": "2020-02-09",
@@ -121,7 +121,7 @@
   },
   {
     "PlayerName": "Belinda",
-    "Balance": 889,
+    "PlayerBalance": 889,
     "DateOfBirth": "1997-06-30",
     "GameTag": "Belinda30",
     "Created": "2019-10-23",
@@ -136,7 +136,7 @@
   },
   {
     "PlayerName": "Alicia",
-    "Balance": 29,
+    "PlayerBalance": 29,
     "DateOfBirth": "1999-11-13",
     "GameTag": "Alicia33",
     "Created": "2020-04-13",

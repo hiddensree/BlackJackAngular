@@ -9,9 +9,8 @@ public class RegisterPlayerDto
 {
     [Required]
     [MaxLength(100)]
-    public required string Playername { get; set; } 
+    public required string Playername { get; set; }
 
     [Required]
-    public required string Password {get; set;} 
-
+    public required string Password { get; set; }
 }

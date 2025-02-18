@@ -23,10 +23,10 @@ public class Seed
             return;
         foreach (var user in users)
         {
-            using var hmac = new HMACSHA256();
+            using var hmac = new HMACSHA512();
 
             user.PlayerName = user.PlayerName.ToLower();
-            user.PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes("password"));
+            user.PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes("1234"));
             user.PasswordSalt = hmac.Key;
 
             context.BlackJackPlayers.Add(user);

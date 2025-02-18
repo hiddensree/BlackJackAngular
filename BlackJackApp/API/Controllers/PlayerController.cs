@@ -1,26 +1,26 @@
-using API.Data;
-using API.Entities;
+using API.DTO;
+using API.Interfaces;
+using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers;
 
-public class PlayersController(DataContext context) : BaseApiController
+[Authorize]
+public class PlayersController(IPlayerRepository playerRepository)
+    : BaseApiController
 {
-    [AllowAnonymous]
     [HttpGet] // api/players
-    public async Task<ActionResult<IEnumerable<BlackJackPlayer>>> GetPlayers()
+    public async Task<ActionResult<IEnumerable<MemberDto>>> GetPlayers()
     {
-        var players = await context.BlackJackPlayers.ToListAsync();
+        var players = await playerRepository.GetMembersAsync();
         return Ok(players);
     }
 
-    [Authorize]
-    [HttpGet("{id:int}")]
-    public async Task<ActionResult<BlackJackPlayer>> GetPlayer(int id)
+    [HttpGet("{playername}")]
+    public async Task<ActionResult<MemberDto>> GetPlayer(string playername)
     {
-        var player = await context.BlackJackPlayers.FindAsync(id);
+        var player = await playerRepository.GetMemberByPlayernameAsync(playername);
         if (player == null)
             return NotFound();
         return player;
